@@ -8,12 +8,6 @@
 
 **[全部版本下载表](VERSIONS.md)** · **[完整发布页](https://github.com/VyskoyeNebo/the-shooting-star-zh-cn/releases/tag/all-versions-2026-11-01)** · **[SHA-256 校验](SHA256SUMS-ALL.txt)**
 
-## 后续自动更新
-
-提供免 API 密钥的更新脚本和 Codex 定时任务流程：每 4 小时检查原作者更新，复用已有译文，由已登录的 Codex 订阅处理新文本，通过校验后发布。电脑需开机联网、应用保持运行；没有更新时保持安静。
-
-详见 [自动更新说明](AUTO_UPDATE.md)。新增文本不需要你手工逐条翻译，也不需要将订阅认证文件放进 GitHub。
-
 ## 1.5.0 快速下载
 
 | 加载器 | 游戏版本（包内声明） | 下载 |
