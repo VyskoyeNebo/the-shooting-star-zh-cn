@@ -1,1 +1,6 @@
 *.jar
+.work/
+dist/
+__pycache__/
+*.class
+RELEASE_NOTES.txt
