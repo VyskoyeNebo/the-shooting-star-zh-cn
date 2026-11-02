@@ -5,16 +5,547 @@
   "translation_notice": "全部汉化由 Codex 制作。若汉化有语法问题，请找 OpenAI。",
   "source_project": "https://www.curseforge.com/minecraft/mc-mods/the-shooting-star-demo",
   "summary": {
-    "snapshot_date": "2026-11-01",
-    "source_file_count": 65,
-    "published_release_labels": 28,
-    "archives_verified": 161,
-    "changed_classes_verified": 3094,
-    "jvm_text_sites_verified": 3348,
-    "output_bytes": 1608051704,
+    "snapshot_date": "2026-11-02",
+    "source_file_count": 68,
+    "published_release_labels": 29,
+    "archives_verified": 168,
+    "changed_classes_verified": 3278,
+    "jvm_text_sites_verified": 4859,
+    "output_bytes": 1751417941,
     "all_in_game_tested": false
   },
   "files": [
+    {
+      "id": 9400029,
+      "displayName": "1.5.1 [NeoForge]",
+      "fileName": "the-shooting-star-demo-1.5.1-neoforge.jar",
+      "fileLength": 24579537,
+      "dateCreated": "2026-11-01T22:09:48.023Z",
+      "gameVersions": [
+        "Client",
+        "1.20.1",
+        "1.21.1",
+        "NeoForge",
+        "Server"
+      ],
+      "source_url": "https://www.curseforge.com/minecraft/mc-mods/the-shooting-star-demo/files/9400029",
+      "download_url": "https://edge.forgecdn.net/files/9400/29/the-shooting-star-demo-1.5.1-neoforge.jar",
+      "sha256": "bd20637a584f11042a9efdffa4c96d38254eece7f35986c39d32f31b4035b5e9",
+      "translated_filename": "the-shooting-star-demo-1.5.1-neoforge--cf9400029--zh_cn.jar",
+      "translated_sha256": "735a8a9b56998c93691373f48005ec00581647078adba4305d49d84b50077881",
+      "translated_size": 24701739,
+      "nodes": [
+        {
+          "path": "",
+          "languages": {
+            "assets/shooting_star_demo/lang/zh_cn.json": 183,
+            "assets/rimulib/lang/zh_cn.json": 87
+          },
+          "changed_classes": 46,
+          "hardcoded_replacements": 496,
+          "constant_sites": 353,
+          "jvm_tested_sites": 377,
+          "preserved_vector_title_classes": 2,
+          "original_metadata": {
+            "META-INF/mods.toml": {
+              "modLoader": "javafml",
+              "loaderVersion": "[47,)",
+              "license": "All Rights Reserved",
+              "mods": [
+                {
+                  "modId": "shooting_star_demo",
+                  "version": "1.5.1-demo",
+                  "displayName": "The Shooting Star (Demo)",
+                  "authors": "rimuru.dev",
+                  "displayURL": "https://www.tiktok.com/@rimuru.dev",
+                  "logoFile": "shooting_star_demo_icon.png",
+                  "description": "A demo of the Stellar Remote: SS-01 The Shooting Star, SS-03 Gungnir, SS-04 Seven Stars, SS-05 Tesseract and SS-06 Gravitia.\nDemo made by tiktok.com/@rimuru.dev - All rights reserved.\n"
+                }
+              ],
+              "dependencies": {
+                "shooting_star_demo": [
+                  {
+                    "modId": "forge",
+                    "mandatory": true,
+                    "versionRange": "[47.1,)",
+                    "ordering": "NONE",
+                    "side": "BOTH"
+                  },
+                  {
+                    "modId": "minecraft",
+                    "mandatory": true,
+                    "versionRange": "[1.20.1,1.20.2)",
+                    "ordering": "NONE",
+                    "side": "BOTH"
+                  },
+                  {
+                    "modId": "rimulib",
+                    "mandatory": true,
+                    "versionRange": "[1.1.6,2.0)",
+                    "ordering": "AFTER",
+                    "side": "BOTH"
+                  }
+                ]
+              }
+            },
+            "META-INF/neoforge.mods.toml": {
+              "modLoader": "javafml",
+              "loaderVersion": "[4,)",
+              "license": "All Rights Reserved",
+              "mods": [
+                {
+                  "modId": "shooting_star_demo",
+                  "version": "1.5.1-demo",
+                  "displayName": "The Shooting Star (Demo)",
+                  "authors": "rimuru.dev",
+                  "displayURL": "https://www.tiktok.com/@rimuru.dev",
+                  "logoFile": "shooting_star_demo_icon.png",
+                  "description": "A demo of the Stellar Remote: SS-01 The Shooting Star, SS-03 Gungnir, SS-04 Seven Stars, SS-05 Tesseract and SS-06 Gravitia.\nDemo made by tiktok.com/@rimuru.dev - All rights reserved.\n"
+                }
+              ],
+              "mixins": [
+                {
+                  "config": "shooting_star_demo.mc1211.mixins.json"
+                }
+              ],
+              "dependencies": {
+                "shooting_star_demo": [
+                  {
+                    "modId": "neoforge",
+                    "type": "required",
+                    "versionRange": "[21.1,)",
+                    "ordering": "NONE",
+                    "side": "BOTH"
+                  },
+                  {
+                    "modId": "minecraft",
+                    "type": "required",
+                    "versionRange": "[1.21.1,1.21.2)",
+                    "ordering": "NONE",
+                    "side": "BOTH"
+                  },
+                  {
+                    "modId": "rimulib",
+                    "type": "required",
+                    "versionRange": "[1.1.6,2.0)",
+                    "ordering": "AFTER",
+                    "side": "BOTH"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "checks_passed": true,
+      "in_game_tested": false,
+      "packaged_support": {
+        "NeoForge": [
+          "1.20.1",
+          "1.21.1"
+        ]
+      },
+      "rimulib_constraints": [
+        "[1.1.6,2.0)"
+      ],
+      "requires_fabric_api": false,
+      "translated_download_url": "https://github.com/VyskoyeNebo/the-shooting-star-zh-cn/releases/download/cf-9400029-zh-cn/the-shooting-star-demo-1.5.1-neoforge--cf9400029--zh_cn.jar",
+      "release_tag": "cf-9400029-zh-cn"
+    },
+    {
+      "id": 9400022,
+      "displayName": "1.5.1 [Forge]",
+      "fileName": "the-shooting-star-demo-1.5.1-forge.jar",
+      "fileLength": 24579696,
+      "dateCreated": "2026-11-01T22:09:10.603Z",
+      "gameVersions": [
+        "Client",
+        "1.20.1",
+        "Forge",
+        "1.21.1",
+        "Server"
+      ],
+      "source_url": "https://www.curseforge.com/minecraft/mc-mods/the-shooting-star-demo/files/9400022",
+      "download_url": "https://edge.forgecdn.net/files/9400/22/the-shooting-star-demo-1.5.1-forge.jar",
+      "sha256": "9a547738e3971b79f0e501fb3311e4abb74e48547acab6c921db9c8c3b1dd4f5",
+      "translated_filename": "the-shooting-star-demo-1.5.1-forge--cf9400022--zh_cn.jar",
+      "translated_sha256": "cd46e79ae46d49b2bd9a6b4863f046a7cb61eae108d6650477fad44727707ca3",
+      "translated_size": 24702066,
+      "nodes": [
+        {
+          "path": "",
+          "languages": {
+            "assets/shooting_star_demo/lang/zh_cn.json": 183,
+            "assets/rimulib/lang/zh_cn.json": 87
+          },
+          "changed_classes": 46,
+          "hardcoded_replacements": 496,
+          "constant_sites": 353,
+          "jvm_tested_sites": 377,
+          "preserved_vector_title_classes": 2,
+          "original_metadata": {
+            "META-INF/mods.toml": {
+              "modLoader": "javafml",
+              "loaderVersion": "[47,)",
+              "license": "All Rights Reserved",
+              "mods": [
+                {
+                  "modId": "shooting_star_demo",
+                  "version": "1.5.1-demo",
+                  "displayName": "The Shooting Star (Demo)",
+                  "authors": "rimuru.dev",
+                  "displayURL": "https://www.tiktok.com/@rimuru.dev",
+                  "logoFile": "shooting_star_demo_icon.png",
+                  "description": "A demo of the Stellar Remote: SS-01 The Shooting Star, SS-03 Gungnir, SS-04 Seven Stars, SS-05 Tesseract and SS-06 Gravitia.\nDemo made by tiktok.com/@rimuru.dev - All rights reserved.\n"
+                }
+              ],
+              "dependencies": {
+                "shooting_star_demo": [
+                  {
+                    "modId": "forge",
+                    "mandatory": true,
+                    "versionRange": "[47.1,)",
+                    "ordering": "NONE",
+                    "side": "BOTH"
+                  },
+                  {
+                    "modId": "minecraft",
+                    "mandatory": true,
+                    "versionRange": "[1.20.1,1.20.2),[1.21.1,1.21.2)",
+                    "ordering": "NONE",
+                    "side": "BOTH"
+                  },
+                  {
+                    "modId": "rimulib",
+                    "mandatory": true,
+                    "versionRange": "[1.1.6,2.0)",
+                    "ordering": "AFTER",
+                    "side": "BOTH"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "checks_passed": true,
+      "in_game_tested": false,
+      "packaged_support": {
+        "Forge": [
+          "1.20.1",
+          "1.21.1"
+        ]
+      },
+      "rimulib_constraints": [
+        "[1.1.6,2.0)"
+      ],
+      "requires_fabric_api": false,
+      "translated_download_url": "https://github.com/VyskoyeNebo/the-shooting-star-zh-cn/releases/download/cf-9400022-zh-cn/the-shooting-star-demo-1.5.1-forge--cf9400022--zh_cn.jar",
+      "release_tag": "cf-9400022-zh-cn"
+    },
+    {
+      "id": 9400005,
+      "displayName": "1.5.1 [Fabric]",
+      "fileName": "the-shooting-star-demo-1.5.1-fabric.jar",
+      "fileLength": 93433700,
+      "dateCreated": "2026-11-01T22:07:38.583Z",
+      "gameVersions": [
+        "Client",
+        "Fabric",
+        "1.20.1",
+        "1.21.1",
+        "Server",
+        "1.21.11",
+        "26.3"
+      ],
+      "source_url": "https://www.curseforge.com/minecraft/mc-mods/the-shooting-star-demo/files/9400005",
+      "download_url": "https://edge.forgecdn.net/files/9400/5/the-shooting-star-demo-1.5.1-fabric.jar",
+      "sha256": "6a949944a1ea2a49d710e32abcb45d89eca4b07f5a186d3090a2cb62d2add7bf",
+      "translated_filename": "the-shooting-star-demo-1.5.1-fabric--cf9400005--zh_cn.jar",
+      "translated_sha256": "0ce13707c00e19c13207c0bde33cee8d74f7442219a8efc836c5d3219059395a",
+      "translated_size": 93962432,
+      "nodes": [
+        {
+          "path": "::META-INF/jars/the-shooting-star-demo-1.5.1-demo+mc1.21.11.jar",
+          "languages": {
+            "assets/shooting_star_demo/lang/zh_cn.json": 189,
+            "assets/rimulib/lang/zh_cn.json": 87
+          },
+          "changed_classes": 23,
+          "hardcoded_replacements": 248,
+          "constant_sites": 178,
+          "jvm_tested_sites": 190,
+          "preserved_vector_title_classes": 1,
+          "original_metadata": {
+            "fabric.mod.json": {
+              "schemaVersion": 1,
+              "id": "shooting_star_demo",
+              "version": "1.5.1-demo+mc1.21.11",
+              "name": "The Shooting Star (Demo)",
+              "description": "A demo of the Stellar Remote: SS-01 The Shooting Star, SS-03 Gungnir, SS-04 Seven Stars, SS-05 Tesseract and SS-06 Gravitia. Demo made by tiktok.com/@rimuru.dev - All rights reserved.",
+              "authors": [
+                "rimuru.dev"
+              ],
+              "environment": "*",
+              "entrypoints": {
+                "main": [
+                  "cyou.rimuru.shootingstardemo.ShootingStarDemo"
+                ],
+                "client": [
+                  "cyou.rimuru.shootingstardemo.client.ShootingStarDemoClient"
+                ]
+              },
+              "depends": {
+                "rimulib": "^1.1.6",
+                "fabricloader": ">=0.17.0",
+                "minecraft": "~1.21.11",
+                "java": ">=21",
+                "fabric-api": "*"
+              },
+              "mixins": [
+                "shooting_star_demo.mixins.json",
+                {
+                  "config": "shooting_star_demo.client.mixins.json",
+                  "environment": "client"
+                }
+              ],
+              "icon": "assets/shooting_star_demo/icon.png",
+              "contact": {
+                "homepage": "https://www.tiktok.com/@rimuru.dev"
+              },
+              "license": "All-Rights-Reserved"
+            }
+          }
+        },
+        {
+          "path": "::META-INF/jars/the-shooting-star-demo-1.5.1-demo+mc1.20.1.jar",
+          "languages": {
+            "assets/shooting_star_demo/lang/zh_cn.json": 183,
+            "assets/rimulib/lang/zh_cn.json": 87
+          },
+          "changed_classes": 23,
+          "hardcoded_replacements": 248,
+          "constant_sites": 178,
+          "jvm_tested_sites": 190,
+          "preserved_vector_title_classes": 1,
+          "original_metadata": {
+            "fabric.mod.json": {
+              "schemaVersion": 1,
+              "id": "shooting_star_demo",
+              "version": "1.5.1-demo+mc1.20.1",
+              "name": "The Shooting Star (Demo)",
+              "description": "A demo of the Stellar Remote: SS-01 The Shooting Star, SS-03 Gungnir, SS-04 Seven Stars, SS-05 Tesseract and SS-06 Gravitia. Demo made by tiktok.com/@rimuru.dev - All rights reserved.",
+              "authors": [
+                "rimuru.dev"
+              ],
+              "environment": "*",
+              "entrypoints": {
+                "main": [
+                  "cyou.rimuru.shootingstardemo.ShootingStarDemo"
+                ],
+                "client": [
+                  "cyou.rimuru.shootingstardemo.client.ShootingStarDemoClient"
+                ]
+              },
+              "depends": {
+                "rimulib": "^1.1.6",
+                "fabricloader": ">=0.15.0",
+                "minecraft": "~1.20.1",
+                "java": ">=17",
+                "fabric-api": "*"
+              },
+              "mixins": [
+                "shooting_star_demo.mixins.json",
+                {
+                  "config": "shooting_star_demo.client.mixins.json",
+                  "environment": "client"
+                }
+              ],
+              "icon": "assets/shooting_star_demo/icon.png",
+              "contact": {
+                "homepage": "https://www.tiktok.com/@rimuru.dev"
+              },
+              "license": "All-Rights-Reserved"
+            }
+          }
+        },
+        {
+          "path": "::META-INF/jars/the-shooting-star-demo-1.5.1-demo+mc1.21.1.jar",
+          "languages": {
+            "assets/shooting_star_demo/lang/zh_cn.json": 183,
+            "assets/rimulib/lang/zh_cn.json": 87
+          },
+          "changed_classes": 23,
+          "hardcoded_replacements": 248,
+          "constant_sites": 178,
+          "jvm_tested_sites": 190,
+          "preserved_vector_title_classes": 1,
+          "original_metadata": {
+            "fabric.mod.json": {
+              "schemaVersion": 1,
+              "id": "shooting_star_demo",
+              "version": "1.5.1-demo+mc1.21.1",
+              "name": "The Shooting Star (Demo)",
+              "description": "A demo of the Stellar Remote: SS-01 The Shooting Star, SS-03 Gungnir, SS-04 Seven Stars, SS-05 Tesseract and SS-06 Gravitia. Demo made by tiktok.com/@rimuru.dev - All rights reserved.",
+              "authors": [
+                "rimuru.dev"
+              ],
+              "environment": "*",
+              "entrypoints": {
+                "main": [
+                  "cyou.rimuru.shootingstardemo.ShootingStarDemo"
+                ],
+                "client": [
+                  "cyou.rimuru.shootingstardemo.client.ShootingStarDemoClient"
+                ]
+              },
+              "depends": {
+                "rimulib": "^1.1.6",
+                "fabricloader": ">=0.15.0",
+                "minecraft": "1.21.1",
+                "java": ">=21",
+                "fabric-api": "*"
+              },
+              "mixins": [
+                "shooting_star_demo.mixins.json",
+                {
+                  "config": "shooting_star_demo.client.mixins.json",
+                  "environment": "client"
+                }
+              ],
+              "icon": "assets/shooting_star_demo/icon.png",
+              "contact": {
+                "homepage": "https://www.tiktok.com/@rimuru.dev"
+              },
+              "license": "All-Rights-Reserved"
+            }
+          }
+        },
+        {
+          "path": "::META-INF/jars/the-shooting-star-demo-1.5.1-demo+mc26.3.jar",
+          "languages": {
+            "assets/shooting_star_demo/lang/zh_cn.json": 185,
+            "assets/rimulib/lang/zh_cn.json": 87
+          },
+          "changed_classes": 23,
+          "hardcoded_replacements": 248,
+          "constant_sites": 175,
+          "jvm_tested_sites": 187,
+          "preserved_vector_title_classes": 1,
+          "original_metadata": {
+            "fabric.mod.json": {
+              "schemaVersion": 1,
+              "id": "shooting_star_demo",
+              "version": "1.5.1-demo+mc26.3",
+              "name": "The Shooting Star (Demo)",
+              "description": "A demo of the Stellar Remote: SS-01 The Shooting Star, SS-03 Gungnir, SS-04 Seven Stars, SS-05 Tesseract and SS-06 Gravitia. Demo made by tiktok.com/@rimuru.dev - All rights reserved.",
+              "authors": [
+                "rimuru.dev"
+              ],
+              "environment": "*",
+              "entrypoints": {
+                "main": [
+                  "cyou.rimuru.shootingstardemo.ShootingStarDemo"
+                ],
+                "client": [
+                  "cyou.rimuru.shootingstardemo.client.ShootingStarDemoClient"
+                ]
+              },
+              "depends": {
+                "rimulib": "^1.1.6",
+                "fabricloader": ">=0.17.0",
+                "minecraft": "~26.3",
+                "java": ">=25",
+                "fabric-api": "*"
+              },
+              "mixins": [
+                "shooting_star_demo.mixins.json",
+                {
+                  "config": "shooting_star_demo.client.mixins.json",
+                  "environment": "client"
+                }
+              ],
+              "accessWidener": "shooting_star_demo.accesswidener",
+              "icon": "assets/shooting_star_demo/icon.png",
+              "contact": {
+                "homepage": "https://www.tiktok.com/@rimuru.dev"
+              },
+              "license": "All-Rights-Reserved"
+            }
+          }
+        },
+        {
+          "path": "",
+          "languages": {},
+          "changed_classes": 0,
+          "hardcoded_replacements": 0,
+          "constant_sites": 0,
+          "jvm_tested_sites": 0,
+          "preserved_vector_title_classes": 0,
+          "original_metadata": {
+            "fabric.mod.json": {
+              "schemaVersion": 1,
+              "id": "shooting_star_demo_multi",
+              "version": "1.5.1-demo",
+              "name": "The Shooting Star (Demo)",
+              "description": "A demo of the Stellar Remote: SS-01 The Shooting Star, SS-03 Gungnir, SS-04 Seven Stars, SS-05 Tesseract and SS-06 Gravitia. Demo made by tiktok.com/@rimuru.dev - All rights reserved.",
+              "authors": [
+                "rimuru.dev"
+              ],
+              "contact": {
+                "homepage": "https://www.tiktok.com/@rimuru.dev"
+              },
+              "license": "All-Rights-Reserved",
+              "icon": "shooting_star_demo_multi.png",
+              "environment": "*",
+              "jars": [
+                {
+                  "file": "META-INF/jars/the-shooting-star-demo-1.5.1-demo+mc26.3.jar"
+                },
+                {
+                  "file": "META-INF/jars/the-shooting-star-demo-1.5.1-demo+mc1.21.11.jar"
+                },
+                {
+                  "file": "META-INF/jars/the-shooting-star-demo-1.5.1-demo+mc1.21.1.jar"
+                },
+                {
+                  "file": "META-INF/jars/the-shooting-star-demo-1.5.1-demo+mc1.20.1.jar"
+                }
+              ],
+              "depends": {
+                "rimulib": "^1.1.6",
+                "fabricloader": ">=0.15.0",
+                "minecraft": [
+                  "~1.20.1",
+                  "1.21.1",
+                  "~1.21.11",
+                  "~26.3"
+                ],
+                "java": ">=17",
+                "fabric-api": "*",
+                "shooting_star_demo": "*"
+              }
+            }
+          }
+        }
+      ],
+      "checks_passed": true,
+      "in_game_tested": false,
+      "packaged_support": {
+        "Fabric": [
+          "1.20.1",
+          "1.21.1",
+          "1.21.11",
+          "26.3"
+        ]
+      },
+      "rimulib_constraints": [
+        "^1.1.6"
+      ],
+      "requires_fabric_api": true,
+      "translated_download_url": "https://github.com/VyskoyeNebo/the-shooting-star-zh-cn/releases/download/cf-9400005-zh-cn/the-shooting-star-demo-1.5.1-fabric--cf9400005--zh_cn.jar",
+      "release_tag": "cf-9400005-zh-cn"
+    },
     {
       "id": 9378124,
       "displayName": "1.5.0 (26.3 Hotfix) [Fabric]",

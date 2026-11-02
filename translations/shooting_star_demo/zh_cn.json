@@ -178,5 +178,8 @@
   "key.shooting_star_demo.stellar_remote.gravitia": "流星：SS-06 引力装置",
   "skill.shooting_star_demo.stellar_remote.gravitia.warning": "你的整个世界将被永久送入虚数空间，无法返回，也无法恢复原貌。",
   "skill.shooting_star_demo.stellar_remote.gravitia.desc": "掀开翻盖，按下按钮。高空中，整颗地球映入眼帘，一台由圆环组成的机械装置逐件合拢，将地球围在中央。它启动、开火，将地球周围的一切空间向外推离：恒星、卫星、岩石，乃至光本身都被排开，只留下一圈白光包围的漆黑虚空。随后，地球崩裂，碎片疾速返回，却以错乱的朝向重新拼合。一道纤细的蓝色裂隙横贯星球，你从中坠入虚数空间。这个世界及其中的所有事物、所有玩家都将被删除，世界被重塑为黑暗虚空之上由发光蓝色方盒组成的无尽城市，地平线上燃烧着一条光之隧道。这里不会自然生成任何生物。无论是什么，原有的一切生命都无法幸存。你会在最靠近原位置的方盒顶端重现；若你能够飞行，则会悬浮在那里。服务器上的所有玩家都会观看这场演出，此技能只能从菜单中选择。",
-  "gui.shooting_star_demo.tune.gravitia": "威力 %1$s，作用于整个世界"
+  "gui.shooting_star_demo.tune.gravitia": "威力 %1$s，作用于整个世界",
+  "gui.shooting_star_demo.locked.disabled": "此服务器已禁用",
+  "gui.shooting_star_demo.locked.permission": "你没有在此处使用的权限",
+  "subtitles.shooting_star_demo.stars_rework": "七星演出播放"
 }

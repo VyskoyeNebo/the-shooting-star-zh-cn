@@ -4,12 +4,15 @@
 
 原模组作者：**rimuru.dev**。本仓库维护者仅整理和发布非官方汉化，原作权利归原作者。
 
-范围：2026-11-01 从原作者发布列表核对的全部 **65 个公开文件**，对应 **28 个发布名称（含热修复）**。同名文件以 CurseForge 文件 ID 区分。
+范围：2026-11-02 从原作者发布列表核对的全部 **68 个公开文件**，对应 **29 个发布名称（含热修复）**。同名文件以 CurseForge 文件 ID 区分。
 
 表中加载器与游戏版本来自 JAR 包内声明。应同时匹配加载器和 Minecraft 版本。NeoForge 1.20.1 属于旧版分支，与 NeoForge 21.x 不同。
 
 | 作者发布名称 | 原文件 ID | 包内支持的组合 | RimuLib 要求 | 下载 | 原始发布页 |
 | --- | --- | --- | --- | --- | --- |
+| 1.5.1 [NeoForge] | 9400029 | NeoForge：1.20.1、1.21.1 | `[1.1.6,2.0)` | [汉化 JAR](https://github.com/VyskoyeNebo/the-shooting-star-zh-cn/releases/download/cf-9400029-zh-cn/the-shooting-star-demo-1.5.1-neoforge--cf9400029--zh_cn.jar) | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/the-shooting-star-demo/files/9400029) |
+| 1.5.1 [Forge] | 9400022 | Forge：1.20.1、1.21.1 | `[1.1.6,2.0)` | [汉化 JAR](https://github.com/VyskoyeNebo/the-shooting-star-zh-cn/releases/download/cf-9400022-zh-cn/the-shooting-star-demo-1.5.1-forge--cf9400022--zh_cn.jar) | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/the-shooting-star-demo/files/9400022) |
+| 1.5.1 [Fabric] | 9400005 | Fabric：1.20.1、1.21.1、1.21.11、26.3 | `^1.1.6` | [汉化 JAR](https://github.com/VyskoyeNebo/the-shooting-star-zh-cn/releases/download/cf-9400005-zh-cn/the-shooting-star-demo-1.5.1-fabric--cf9400005--zh_cn.jar) | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/the-shooting-star-demo/files/9400005) |
 | 1.5.0 (26.3 Hotfix) [Fabric] | 9378124 | Fabric：1.20.1、1.21.1、1.21.11、26.3 | `^1.1.5` | [汉化 JAR](https://github.com/VyskoyeNebo/the-shooting-star-zh-cn/releases/download/all-versions-2026-11-01/the-shooting-star-demo-1.5.0-fabric--cf9378124--zh_cn.jar) | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/the-shooting-star-demo/files/9378124) |
 | 1.5.0 [Forge] | 9377538 | Forge：1.20.1、1.21.1 | `[1.1.5,2.0)` | [汉化 JAR](https://github.com/VyskoyeNebo/the-shooting-star-zh-cn/releases/download/all-versions-2026-11-01/the-shooting-star-demo-1.5.0-forge--cf9377538--zh_cn.jar) | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/the-shooting-star-demo/files/9377538) |
 | 1.5.0 [NeoForge] | 9377531 | NeoForge：1.20.1、1.21.1 | `[1.1.5,2.0)` | [汉化 JAR](https://github.com/VyskoyeNebo/the-shooting-star-zh-cn/releases/download/all-versions-2026-11-01/the-shooting-star-demo-1.5.0-neoforge--cf9377531--zh_cn.jar) | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/the-shooting-star-demo/files/9377531) |
