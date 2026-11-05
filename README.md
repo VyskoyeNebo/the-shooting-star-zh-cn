@@ -4,19 +4,19 @@
 
 > 全部汉化由 Codex 制作。若汉化有语法问题，请找 OpenAI。
 
-覆盖截至 **2026-11-02** 原作者发布列表公开列出的全部 **68 个文件**，对应 **29 个发布名称（含热修复）**，从 **1.0.2A 到 1.5.1**。
+覆盖截至 **2026-11-05** 原作者发布列表公开列出的全部 **71 个文件**，对应 **30 个发布名称（含热修复）**，从 **1.0.2A 到 1.5.2**。
 
 **[全部版本下载表](VERSIONS.md)** · **[历史版本合集](https://github.com/VyskoyeNebo/the-shooting-star-zh-cn/releases/tag/all-versions-2026-11-01)** · **[SHA-256 校验](SHA256SUMS-ALL.txt)**
 
-## 1.5.1 快速下载
+## 1.5.2 快速下载
 
 | 加载器 | 游戏版本（包内声明） | 下载 |
 | --- | --- | --- |
-| Fabric | 1.20.1、1.21.1、1.21.11、26.3 | [汉化 JAR](https://github.com/VyskoyeNebo/the-shooting-star-zh-cn/releases/download/cf-9400005-zh-cn/the-shooting-star-demo-1.5.1-fabric--cf9400005--zh_cn.jar) |
-| Forge | 1.20.1、1.21.1 | [汉化 JAR](https://github.com/VyskoyeNebo/the-shooting-star-zh-cn/releases/download/cf-9400022-zh-cn/the-shooting-star-demo-1.5.1-forge--cf9400022--zh_cn.jar) |
-| NeoForge | 1.20.1、1.21.1 | [汉化 JAR](https://github.com/VyskoyeNebo/the-shooting-star-zh-cn/releases/download/cf-9400029-zh-cn/the-shooting-star-demo-1.5.1-neoforge--cf9400029--zh_cn.jar) |
+| Fabric | 1.20.1、1.21.1、1.21.11、26.3 | [汉化 JAR](https://github.com/VyskoyeNebo/the-shooting-star-zh-cn/releases/download/cf-9438887-zh-cn/the-shooting-star-demo-1.5.2-fabric--cf9438887--zh_cn.jar) |
+| Forge | 1.20.1、1.21.1 | [汉化 JAR](https://github.com/VyskoyeNebo/the-shooting-star-zh-cn/releases/download/cf-9438881-zh-cn/the-shooting-star-demo-1.5.2-forge--cf9438881--zh_cn.jar) |
+| NeoForge | 1.20.1、1.21.1 | [汉化 JAR](https://github.com/VyskoyeNebo/the-shooting-star-zh-cn/releases/download/cf-9438871-zh-cn/the-shooting-star-demo-1.5.2-neoforge--cf9438871--zh_cn.jar) |
 
-1.5.1 需要相同加载器的 **RimuLib 1.1.6+**；Forge/NeoForge 包声明的范围为 `[1.1.6,2.0)`。Fabric 分支还需对应游戏版本的 Fabric API。请以包内依赖声明为准。
+1.5.2 需要相同加载器的 **RimuLib 1.2.2+**，Forge/NeoForge 包声明的范围为 `[1.2.2,2.0)`。Fabric 分支还需对应游戏版本的 Fabric API。请以包内依赖声明为准。
 
 ## 安装
 
@@ -41,13 +41,13 @@
 
 ## 验证情况
 
-全部 **68/68** 文件已完成压缩包完整性、JSON/TOML、语言键覆盖和格式占位符检查。包括内置包，共检查 **168** 个 JAR 归档，反汇编检查 **3278** 个修改的类，并在 Java 虚拟机上验证 **4859** 个中文文本调用点。
+全部 **71/71** 文件已完成压缩包完整性、JSON/TOML、语言键覆盖和格式占位符检查。包括内置包，共检查 **175** 个 JAR 归档，反汇编检查 **3486** 个修改的类，并在 Java 虚拟机上验证 **6690** 个中文文本调用点。
 
 **尚未逐版本进入 Minecraft 实测。** 具体原始文件、原始及汉化 SHA-256、包内加载声明、检查统计见 [versions.json](versions.json)。
 
 ## 仓库内容
 
-- `VERSIONS.md`：全部 68 个文件的下载、兼容组合与原始发布页。
+- `VERSIONS.md`：全部 71 个文件的下载、兼容组合与原始发布页。
 - `versions.json`：逐包来源、校验和、依赖与验证统计。
 - `translations/archive/<CurseForge 文件 ID>/`：逐包、逐内置游戏版本的中文语言资源。
 - `translations/rimulib/zh_cn.json`：共用菜单中文资源。
