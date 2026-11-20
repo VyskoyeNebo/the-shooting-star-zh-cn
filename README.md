@@ -4,19 +4,19 @@
 
 > 全部汉化由 Codex 制作。若汉化有语法问题，请找 OpenAI。
 
-覆盖截至 **2026-11-05** 原作者发布列表公开列出的全部 **71 个文件**，对应 **30 个发布名称（含热修复）**，从 **1.0.2A 到 1.5.2**。
+覆盖截至 **2026-11-20** 原作者发布列表公开列出的全部 **74 个文件**，对应 **31 个发布名称（含热修复）**，从 **1.0.2A 到 1.6.0**。
 
 **[全部版本下载表](VERSIONS.md)** · **[历史版本合集](https://github.com/VyskoyeNebo/the-shooting-star-zh-cn/releases/tag/all-versions-2026-11-01)** · **[SHA-256 校验](SHA256SUMS-ALL.txt)**
 
-## 1.5.2 快速下载
+## 1.6.0 快速下载
 
 | 加载器 | 游戏版本（包内声明） | 下载 |
 | --- | --- | --- |
-| Fabric | 1.20.1、1.21.1、1.21.11、26.3 | [汉化 JAR](https://github.com/VyskoyeNebo/the-shooting-star-zh-cn/releases/download/cf-9438887-zh-cn/the-shooting-star-demo-1.5.2-fabric--cf9438887--zh_cn.jar) |
-| Forge | 1.20.1、1.21.1 | [汉化 JAR](https://github.com/VyskoyeNebo/the-shooting-star-zh-cn/releases/download/cf-9438881-zh-cn/the-shooting-star-demo-1.5.2-forge--cf9438881--zh_cn.jar) |
-| NeoForge | 1.20.1、1.21.1 | [汉化 JAR](https://github.com/VyskoyeNebo/the-shooting-star-zh-cn/releases/download/cf-9438871-zh-cn/the-shooting-star-demo-1.5.2-neoforge--cf9438871--zh_cn.jar) |
+| Fabric | 1.20.1、1.21.1、1.21.11、26.3 | [汉化 JAR](https://github.com/VyskoyeNebo/the-shooting-star-zh-cn/releases/download/cf-9676941-zh-cn/the-shooting-star-demo-1.6.0-fabric--cf9676941--zh_cn.jar) |
+| Forge | 1.20.1、1.21.1 | [汉化 JAR](https://github.com/VyskoyeNebo/the-shooting-star-zh-cn/releases/download/cf-9676949-zh-cn/the-shooting-star-demo-1.6.0-forge--cf9676949--zh_cn.jar) |
+| NeoForge | 1.20.1、1.21.1 | [汉化 JAR](https://github.com/VyskoyeNebo/the-shooting-star-zh-cn/releases/download/cf-9677111-zh-cn/the-shooting-star-demo-1.6.0-neo--cf9677111--zh_cn.jar) |
 
-1.5.2 需要相同加载器的 **RimuLib 1.2.2+**，Forge/NeoForge 包声明的范围为 `[1.2.2,2.0)`。Fabric 分支还需对应游戏版本的 Fabric API。请以包内依赖声明为准。
+1.6.0 需要相同加载器的 **RimuLib 1.3.0+**，Forge/NeoForge 包声明的范围为 `[1.3.0,2.0)`。Fabric 分支还需对应游戏版本的 Fabric API。请以包内依赖声明为准。
 
 ## 安装
 
@@ -35,19 +35,19 @@
 - 翻译代码内的 HUD、状态提示与星名，包括混淆代码中保存的固定文本。
 - 依照各版原文保留数值差异，例如早期 360 格与后期 1,440 格的七星范围，以及不同的轨道炮滑块上限。
 - 需要 RimuLib 的版本附带其共用界面中文。
-- 原作五个以线条字形绘制的英文技能动画标题保留英文，技能菜单中的名称与说明已翻译。
+- 原作以线条字形绘制的英文技能动画标题保留英文，技能菜单中的名称与说明已翻译。
 
 英文语言文件保留。每个包的模组 ID、依赖、数值常量、方法指令、技能解锁条件、着色器、模型、音频及材质保持原样；仅修改中文资源、文本常量及其文本链接，并翻译模组列表名称。
 
 ## 验证情况
 
-全部 **71/71** 文件已完成压缩包完整性、JSON/TOML、语言键覆盖和格式占位符检查。包括内置包，共检查 **175** 个 JAR 归档，反汇编检查 **3486** 个修改的类，并在 Java 虚拟机上验证 **6690** 个中文文本调用点。
+全部 **74/74** 文件已完成压缩包完整性、JSON/TOML、语言键覆盖和格式占位符检查。包括内置包，共检查 **182** 个 JAR 归档，反汇编检查 **3702** 个修改的类，并在 Java 虚拟机上验证 **8536** 个中文文本调用点。
 
 **尚未逐版本进入 Minecraft 实测。** 具体原始文件、原始及汉化 SHA-256、包内加载声明、检查统计见 [versions.json](versions.json)。
 
 ## 仓库内容
 
-- `VERSIONS.md`：全部 71 个文件的下载、兼容组合与原始发布页。
+- `VERSIONS.md`：全部 74 个文件的下载、兼容组合与原始发布页。
 - `versions.json`：逐包来源、校验和、依赖与验证统计。
 - `translations/archive/<CurseForge 文件 ID>/`：逐包、逐内置游戏版本的中文语言资源。
 - `translations/rimulib/zh_cn.json`：共用菜单中文资源。

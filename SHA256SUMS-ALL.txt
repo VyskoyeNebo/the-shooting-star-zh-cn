@@ -69,3 +69,6 @@ cd46e79ae46d49b2bd9a6b4863f046a7cb61eae108d6650477fad44727707ca3  the-shooting-s
 28f27f16aede8b52b13767e4ff678316de6d6f60eed1f04bcb70976f9f778c8d  the-shooting-star-demo-1.5.2-fabric--cf9438887--zh_cn.jar
 579bf6e15b28fee38b7821e570b170483206659037621c2fc531032627dda095  the-shooting-star-demo-1.5.2-forge--cf9438881--zh_cn.jar
 f27e78a09a5fceb60c00fa969b4ea9236c1b165330ab044ff833cdeeaab9c8d4  the-shooting-star-demo-1.5.2-neoforge--cf9438871--zh_cn.jar
+0536775315779e174f2c98bacc37f8268689cb37b98535718e76436b00af483a  the-shooting-star-demo-1.6.0-fabric--cf9676941--zh_cn.jar
+ace3079aac29f748b80ff90d8f86e4cfde07907d6a0dca1e777ef721b681b095  the-shooting-star-demo-1.6.0-forge--cf9676949--zh_cn.jar
+001fa070731376419f31f13728bc640f1bdf815b3bf09d4382065245f3dd10c0  the-shooting-star-demo-1.6.0-neo--cf9677111--zh_cn.jar
